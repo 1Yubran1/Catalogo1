@@ -46,7 +46,7 @@
     <div class="container text-center">
       <div class="row">
         <div class="col">
-          <div class="card" style="width: 18rem;" portfolio-item mx-auto data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+          <div class="card" style="width: 18rem;" portfolio-item mx-auto data-bs-toggle="modal" data-bs-target="#exampleModal1">
             <img src="img/carrusel4.jpg" class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal1">
             <div class="card-body">
               <h5 class="card-title">Blusa</h5>
@@ -77,88 +77,36 @@
         </div>
       </div>
     </div>
-
-
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+  
+  <!-- Modal 1 -->
+  <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
       <div class="modal-dialog modal-xl">
           <div class="modal-content">
-              <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-              <div class="modal-body text-center pb-5">
-                  <div class="container">
-                      <div class="row justify-content-center">
-                          <div class="col-lg-8">
-                              <!-- Portfolio Modal - Title-->
-                              <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
-                              <!-- Icon Divider-->
-                              <div class="divider-custom">
-                                  <div class="divider-custom-line"></div>
-                                  <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                  <div class="divider-custom-line"></div>
-                              </div>
-                              <!-- Portfolio Modal - Image-->
-                              <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="..." />
-                              <!-- Portfolio Modal - Text-->
-                              <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                              <button class="btn btn-primary" data-bs-dismiss="modal">
-                                  <i class="fas fa-xmark fa-fw"></i>
-                                  Close Window
-                              </button>
-                          </div>
+              <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel1">Imagen Grande</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <img src="img/carrusel4.jpg" class="img-fluid" alt="...">
+                  <!-- Tres imágenes pequeñas -->
+                  <div class="row mt-3">
+                      <div class="col">
+                          <img src="img/carrusel4.jpg" class="img-thumbnail" alt="...">
+                      </div>
+                      <div class="col">
+                          <img src="img/carrusel4.jpg" class="img-thumbnail" alt="...">
+                      </div>
+                      <div class="col">
+                          <img src="img/carrusel4.jpg" class="img-thumbnail" alt="...">
                       </div>
                   </div>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
               </div>
           </div>
       </div>
   </div>
-    
-    <!-- Modal 1 -->
-    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
-      <div class="modal-dialog modal-xl">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel1">Imagen Grande</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <img src="img/carrusel4.jpg" class="img-fluid" alt="...">
-            <div class="row mt-3">
-              <div class="col">
-                <img src="img/carrusel2.jpg" class="img-thumbnail" alt="...">
-              </div>
-              <div class="col">
-                <img src="img/carrusel3.jpg" class="img-thumbnail" alt="...">
-              </div>
-              <div class="col">
-                <img src="img/carrusel4.jpg" class="img-thumbnail" alt="...">
-              </div>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-   
-    <!-- Modal 3 -->
-    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
-      <div class="modal-dialog modal-xl">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel3">Imagen Grande</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <img src="img/carrusel3.jpg" class="img-fluid" alt="...">
-            <!-- Aquí puedes agregar las tres imágenes pequeñas -->
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-          </div>
-        </div>
-      </div>
-    </div>
 </body>
 <br></br><br></br>
 <footer>
